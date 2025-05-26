@@ -1,0 +1,240 @@
+
+.btn-3{
+    padding: 10px 60px;
+    margin-bottom: 60px;
+}
+.btn-4{
+    padding: 10px 60px;
+    margin-bottom: 60px;
+    background-color: #00d2ff;
+    color: black;
+}
+
+.destinations-header h1{
+    font-family: "Lobster Two", serif;
+  font-size: 82px;
+  line-height: 86px;
+  padding-bottom: 30px;
+
+}
+.destinations-header h3{
+  font-size: 52px;
+  line-height: 56px;
+  padding-bottom: 20px;
+
+}
+.destinations-header h4{
+    font-size: 42px;
+    line-height: 46px;
+    padding-bottom: 40px;
+    color: #00d2ff;
+  
+}
+.destinations-header h5{
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 40px;
+  
+}
+/* .destinations-header .btn-3{
+    padding: 10px 60px;
+    margin-bottom: 60px;
+  
+} */
+
+
+
+.destinations-header .carousel-indicators [data-bs-target]{
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background-color: #00d2ff;
+}
+.destination-info{
+    padding: 50px 0px;
+}
+.destination-info .section-title h2{
+    font-size: 52px;
+    line-height: 56px;
+    font-weight: bold;
+    padding:20px 0px;
+}
+.destination-info .section-title .underline {
+    border-bottom: 3px dashed #00d2ff; 
+    width: 390px;
+    margin-top: 5px;
+}
+.destination-info .section-title h2 span{
+    color: #00d2ff;
+}
+.destination-info .section-title h4{
+    font-size: 32px;
+    font-family: "Oswald", serif; 
+}
+.destination-info .section-title p{
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 0px 20px 0px;
+    
+}
+.destination-info .card{
+    position: relative;
+}
+.destination-info .color-overlay p{
+    color: #fff;
+}
+.destination-info .color-overlay{
+position: absolute;
+content: "";
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+background: linear-gradient(to right, #000000c2 0%,#a5a8af9c 100%);
+opacity: 0;
+}
+
+.destination-info .overlay-des{
+    position: absolute;
+    top: 100.0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    opacity: 0;
+}
+.destination-info .card:hover .overlay-des{
+    opacity: 1;
+
+}
+.destination-info .card:hover .color-overlay{
+    opacity: 1;
+
+}
+
+.Our-offer{
+    padding: 50px 0px;
+}
+.Our-offer .section-title h2{
+    font-size: 52px;
+    line-height: 56px;
+    font-weight: bold;
+    padding:20px 0px;
+}
+.Our-offer .section-title .underline {
+    border-bottom: 3px dashed #00d2ff; 
+    width: 390px;
+    margin-top: 5px;
+}
+.Our-offer .section-title h2 span{
+    color: #00d2ff;
+}
+.Our-offer .section-title h4{
+    font-size: 32px;
+    font-family: "Oswald", serif; 
+}
+.Our-offer .section-title p{
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 0px 20px 0px;
+    
+}
+.Our-offer .img-grid{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+   grid-gap: 10px;
+   justify-content:center;
+   align-content:center;
+}
+.Our-offer .img-grid img{
+    width: 100%;
+}
+
+.Our-offer .img-grid .img1{
+    grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.Our-offer .img-grid .img2{
+    grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start:2;
+  grid-column-end: 3;
+}
+.Our-offer .img-grid .img3{
+    grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:3;
+  grid-column-end: 4;
+}
+.Our-offer .img-grid .img4{
+    grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:4;
+  grid-column-end: 5;
+}
+.Our-offer .img-grid .img5{
+    grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:1;
+  grid-column-end: 2;
+}
+.Our-offer .img-grid .img6{
+    grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:3;
+  grid-column-end: 5;
+  
+}
+
+.Upcomming_events{
+    background-image: url(../img/upcomeing_event.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:100px 0px 200px 0px;
+}
+
+.Upcomming_events .section-title h2{
+    font-size: 52px;
+    line-height: 56px;
+    font-weight: bold;
+    padding:20px 0px;
+    color:#fff;
+}
+.Upcomming_events .section-title .underline {
+    border-bottom: 3px dashed #00d2ff; 
+    width: 390px;
+    margin-top: 5px;
+}
+.Upcomming_events .section-title h2 span{
+    color: #00d2ff;
+}
+.Upcomming_events .section-title h4{
+    font-size: 32px;
+    font-family: "Oswald", serif; 
+   margin-bottom: 20px;
+}
+.Upcomming_events .d-video{
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Upcomming_events .d-video iframe{
+    position: absolute;
+        top: 16px;
+        left: 270px;
+         width: 58.5%;
+        height: 57.2%;
+         border: 0;
+}
+
+
+
+
+

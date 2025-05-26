@@ -1,0 +1,206 @@
+
+.Packages_banner{
+    background-image: url(../img/packges_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:200px 0px;
+}
+/* .Our_best{
+    background-color:  #3be8ea;
+} */
+
+.Packages_banner h1{
+    font-family: "Lobster Two", serif;
+}
+.Most_Popular {
+    padding:100px 0px;
+}
+h2{
+    font-size: 52px;
+    line-height: 56px;
+    font-weight: bold;
+    padding-bottom: 50px !important; 
+}
+h2 span{
+    color: #00d2ff;
+}
+
+.Most_Popular .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.Most_Popular .card h5{
+    padding:7px 0px;
+    font-size:25px;
+    font-weight: 700;
+}
+.Most_Popular .card .price{
+    font-size:25px;
+    font-weight: 700;
+}
+.Most_Popular .card .card-text{
+    color: #908f8f;
+    padding: 10px 0px;
+}
+
+.Most_Popular .card:hover {
+    transform: scale(1.05);
+}
+.Most_Popular .card img {
+    height: 200px;
+    object-fit: cover;
+}
+.Most_Popular .card-body {
+    padding: 20px;
+}
+.Most_Popular .price {
+    color: #007bff;
+    font-weight: bold;
+}
+.Most_Popular.btn-info {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.Most_Popular .card .extra{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.Most_Popular .card .extra p{
+    padding:0px 5px;
+}
+.Most_Popular .card .extra p i{
+   font-size: 30px;
+   padding: 0px 10px;
+}
+.Most_Popular .card .extra p span{
+    padding:0px 10px;
+    color: #908f8f;
+}
+.Our_best{
+    padding: 50px 0px;
+}
+.Our_best h5{
+    font-family: "Lobster Two", serif;
+    font-size: 30px;
+}
+.Our_best p{
+    padding:15px 0px;
+}
+.Hotel_deals{
+    padding:50px 0px;
+}
+.Hotel_deals .card-body .img_box{
+    display:flex;
+    justify-content: space-evenly;
+}
+.Hotel_deals .card-body .img_box .img{
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+.Hotel_deals .card-body .img_box .img p{
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Hotel_deals .card-body .img_box .img span{
+    border: 2px solid #00d2ff;
+    padding: 5px 10px;
+    font-weight: 700;
+    background-color: #00d2ff;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.Hotel_deals .card-body .img_box .img .overlay{
+    position:absolute;
+    top:100px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    opacity: 0;
+}
+.Hotel_deals .card-body .img_box .img:hover .overlay{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-image: url(../img/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px 0px;
+}
+.footer h5{
+    font-size:30px ;
+    font-family: "Lobster Two", serif;
+    font-weight: 800;
+}
+.footer ul li a{
+    font-size: 20px;
+    line-height:34px;
+    color:#fff;
+}
+.footer ul li a:hover{
+    color:#f0ad4e;
+}
+.footer .card p{
+    padding:8px 0px;
+    font-size: 16px;
+}
+.footer  .card i{
+    font-size: 25px;
+    padding: 5px 10px;
+    color: #fff;
+}
+.footer  .card p a{
+    color: #fff;
+}
+.footer  .card p a i{
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+.footer .card{
+    background-color:transparent;
+    border: none;
+    color: #fff;
+}
+.footer .card .gallery{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+   
+}
+.footer .card .gallery img{
+    border-radius: 5px;
+}
+.footer .card .card-body .email-input-group{
+    width:100%;
+}
+.footer .card .card-body .input-group-text {
+    background-color: #606060;
+    color: #fff;
+    border: none;
+   
+}

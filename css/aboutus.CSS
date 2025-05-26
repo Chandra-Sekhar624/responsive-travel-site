@@ -1,0 +1,232 @@
+.About_us_banner{
+  padding: 200px 0;
+  background-color: rgba(47, 47, 47, 0.32);
+  background-image: url(../img/Abuot_us_banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+
+
+}
+
+
+
+.About_us_banner h2{
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 200px;
+  font-size: 40px;
+}
+.About_choose{
+padding: 100px 0;
+}
+.About_choose .box1 img{
+  width: 100%;
+  transition: all 3s;
+  
+}
+.About_choose .box1 img:hover{
+  transform: rotateY(360deg);
+}
+.About_choose .box2{
+  margin-top: 100px;
+  
+ 
+ }
+.About_choose .accordion-button:not(.collapsed){
+  color: #5fbdd2;
+  background-color: #3be8ea;
+}
+.About_choose .accordion-item{
+ border: 2px solid #0006;
+}
+.About_choose .box2 h3{
+  font-size: 30px;
+  color: #5fbdd2;
+ margin-bottom: 20px;
+ font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+.About_report{
+  background-image: url(../img/Report\ img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  position: relative;
+}
+.About_report::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #2ce03830 0%,#e02a706e 18%,#f7f72766 44%,#f7042957 67%,#eade023d 85%,#8fea0733 100%);
+}
+.About_report .feature h3{
+  font-size: 60px;
+ color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.About_report .feature h4{
+text-align: center;
+color: transparent;
+margin-top: 30px;
+font-size: 30px;
+text-transform: uppercase;
+background: linear-gradient(to right, #5504d8 4%,#f4ec04 31%,#ef1804 51%,#0408e5 78%,#04f214 97%);
+background-clip: text;
+position: relative;
+z-index: 1;
+}
+.About_travel{
+padding: 100px 0;
+text-align: left;
+}
+.About_travel .box1 img{
+ width: 100%; 
+}
+.About_travel .box1 img{
+width: 100%;
+transition: all 3s;
+}
+.About_travel .box1 img:hover{
+transform: rotateY(360deg)
+}
+/* .travel .box1{
+overflow: hidden;
+} */
+.About_travel .box2{
+margin-top: 100px;
+}
+.About_travel .box2 h3{
+font-size: 40px;
+margin-bottom: 20px;
+font-family: "Oswald", sans-serif;
+font-weight: 800;
+color: #5fbdd2;
+}
+.About_travel .box2 .list li{
+margin-bottom: 33px;
+color: #000;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+}
+.About_travel .box2 .list i{
+color: #00aee7;
+font-size: 40px;
+
+}
+.About_travel .card{
+border: none;
+background-color: transparent;
+}
+.About_gallery{
+padding: 100px 0px;
+background-color: #90f1f2;
+text-align: center;
+}
+.About_gallery h2{
+font-family: "Oswald", sans-serif;
+margin-bottom: 50px;
+text-transform: capitalize;
+font-size: 40px;
+}
+.About_gallery .gallery-demo{
+column-count: 6;
+}
+.About_gallery img{
+  width: 100%;
+  transition: all 3s;
+}
+.About_gallery .gallery-demo .image img:hover{
+  transform: scale(1.5);
+}
+.About_gallery .gallery-demo .image{
+  overflow: hidden;
+}
+.About_popular{
+  padding: 100px 0;
+  text-align: left;
+}
+.About_popular .box1 .parentpic{
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+grid-gap: 10px
+}
+.About_popular .box1 .parentpic .pic1{
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 2;
+}
+.About_popular .box1 .parentpic .pic2{
+grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+.About_popular .box1 .parentpic .pic3{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 2;
+}
+.About_popular .box1 .parentpic img{
+width: 100%;
+}
+.About_popular .box1 .parentpic{
+position: relative;
+}
+.About_popular .overlay{
+position: absolute;
+top: -126px;
+bottom: 0px;
+left: 0px;
+right: 106px;
+opacity: 0;
+padding: 50px;
+}
+
+.About_popular .box1 .parentpic .overlay{
+opacity: 1;
+}
+.About_popular .box2{
+margin-top: 50px;
+}
+.About_popular .box2 h3{
+text-transform: capitalize;
+font-size: 35px;
+font-family: "Oswald", sans-serif;
+color: #5fbdd2;
+margin-bottom: 15px;
+}
+.About_popular .box2 h2{
+text-transform: capitalize;
+font-size: 40px;
+margin-bottom: 15px;
+}
+.About_popular .box2 p{
+margin-bottom: 45px;
+}
+.About_popular .box2 a{
+text-transform: uppercase;
+font-size: 20px;
+color: #fff;
+background-color: #5fbdd2;
+padding: 20px 25px;
+border-radius: 20px;
+}
+.About_popular .box2 a:hover{
+color: #0006;
+background-color: transparent;
+}

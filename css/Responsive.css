@@ -1,0 +1,176 @@
+@media (min-width: 575px) and (max-width: 768px) {
+    .header .social-icons{
+        display: none;
+    }
+    .footer .social-icons{
+        display: block;
+    }
+    .weare .content{
+        padding-top: 25px;
+        text-align: center;
+    }
+    .testmonial .carousel-indicators {
+        top: 580.4px;
+        border-radius: 100%;
+    }
+
+    .explore .card-group{
+        display: grid ;
+        grid-template-columns:auto !important;
+        grid-template-rows: auto !important;
+        grid-gap: 20px;
+        
+    }
+     .card{
+        display: flex;
+        align-items: center;
+    }
+    .explore img{
+        width: 70%;
+    }
+   
+    .blog .card-group{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    .blog .card{
+        display: flex;
+        align-items: center;
+    }
+    .blog img{
+        width: 70%; 
+    }
+    .Diccove .cardmore{
+        position: absolute;
+        background-color: #fff;
+        top: 358px;
+        bottom:0px;
+        left:10px;
+        right:10px;
+        border-radius: 5px;
+        padding-top: 20px;
+       max-height: 150px;
+    
+        
+    }
+    .team-section .Card-container{
+        display: grid !important; 
+        grid-template-columns: auto !important; 
+        grid-template-rows: auto !important;
+        place-content: center;
+       
+    }
+    .team-section .Card-container .card{
+        margin: 5px 0px;
+    }
+
+.brands .brandscon img{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+
+    .adventure .card-group .card .card-body{
+        width:75%;
+    }
+    .hiker{
+        background-image: none;
+    }
+
+    .hiker .box{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+       
+        justify-content: center;
+        
+     }
+
+     .brands .brandscon{
+        
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        justify-content: center;
+    
+}
+
+.brands .brandscon img{
+    padding: 10px 0px;
+}
+
+/* gallery Section */
+     .gallery .prasent-box{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+        justify-content: center;
+       
+    }
+     
+    .gallery .prasent-box .img{
+        padding-bottom: 10px;
+        
+        
+    }
+
+    .choose-us .parent-box{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        justify-content: center;
+        
+   }
+
+   .Gallery_video .videocon iframe{
+    position: absolute;
+    top: 0px;
+    left:0px;
+     width: 100%;
+    height: 100%;
+     border: 0;
+}
+/* packages seaction */
+.Our_best .card-body{
+    text-align: center;
+}
+.Hotel_deals .image img{
+    justify-items: center;
+}
+.Hotel_deals .card-body .img_box {
+        display: grid !important;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        justify-content: center;
+}
+
+/* Destination secation */
+.Upcomming_events .d-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* Contact US */
+.get h3{
+    
+    color:#0ca8c8;  
+}
+
+}
+@media (min-width: 1100px) and (max-width: 1220px){
+    .destinations-header .w-100 {
+        width: 157.5% !important;
+    }
+
+    .Gallery_banner .w-100{
+        width: 120.5% !important;
+    }
+
+}
